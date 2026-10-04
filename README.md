@@ -1,43 +1,40 @@
-# Aditya Kushwaha | Portfolio
+# Aditya Kushwaha - Personal Portfolio
 
-Personal portfolio of Aditya Kushwaha, a B.Tech Computer Science & Engineering (Artificial Intelligence) student at Babu Banarasi Das University, Lucknow. It brings together my education, certifications, and hands-on experience in AI and software.
+This is the source code for my personal portfolio website, built with plain HTML, CSS, and JavaScript. It features a modern, dark-mode glassmorphism design and is fully responsive.
 
-**Live site:** https://aditya00801.github.io/aditya-kushwaha.github.io/
+**Live Site:** [https://aditya00801.github.io/aditya-kushwaha.github.io/](https://aditya00801.github.io/aditya-kushwaha.github.io/)
 
-## What's inside
+## Folder Structure
 
-- Education: B.Tech CSE (AI), third year completed (session 2025-26)
-- Skills: Agentic AI, machine learning, data science on OCI, SQL, MongoDB, Git & GitHub, REST APIs, Kafka, data analysis
-- Certifications and practical experience, in date order:
-  - Oracle Agentic AI Certified Foundations Associate (Aug 2026)
-  - MongoDB Overview: Core Concepts and Architecture (Aug 2026)
-  - Deloitte Data Analytics Job Simulation, Forage (Apr 2026)
-  - SQL Bootcamp and Git & GitHub Bootcamp, LetsUpgrade (Mar and Feb 2026)
-  - JPMorgan Chase Software Engineering Job Simulation, Forage (Nov 2025)
-  - Oracle Cloud Infrastructure 2025 Certified Data Science Professional (Oct 2025)
-  - Kaggle Intro to Machine Learning (Sep 2025)
-  - HackHazards '25 participant, with Team Hack Heroes (2025)
-
-## Tech
-
-A single static page built with plain HTML and CSS. It has no build step or dependencies, and it supports light and dark mode and mobile screens.
-
-## Run locally
-
-Clone the repository and open `index.html` in any browser.
-
-```bash
-git clone https://github.com/aditya00801/aditya-kushwaha.github.io.git
-cd aditya-kushwaha.github.io
-open index.html
+```
+├── index.html       # Main HTML markup
+├── css/
+│   └── style.css    # All CSS styles and variables
+├── js/
+│   └── script.js    # Logic for mobile menu and project rendering
+├── images/          # Image assets directory
+└── README.md        # Project documentation
 ```
 
-## Deploy
+## How to Run Locally
 
-The site is hosted with GitHub Pages: Settings, then Pages, then deploy from the `main` branch and the root folder.
+1. Clone or download this repository.
+2. Open `index.html` directly in any modern web browser. No build steps, frameworks, or npm installations are required.
 
-## Contact
+## How to Add or Edit Projects
 
-I'm open to internships and entry-level roles in AI and software.
+Projects are dynamically rendered using JavaScript to make it easy to update them without modifying the HTML structure.
 
-- LinkedIn: https://www.linkedin.com/in/aditya-kushwaha-08112k05/
+1. Open `js/script.js`.
+2. Locate the `projects` array at the top of the file.
+3. Add a new object or edit an existing one following this structure:
+   ```javascript
+   {
+       title: "Project Name",
+       description: "A short description of what the project does.",
+       tags: ["React", "Node.js", "MongoDB"],
+       codeLink: "https://github.com/aditya00801/project-repo",
+       liveLink: "https://project-url.com" // Leave empty ("") if no live link
+   }
+   ```
+4. Save the file and refresh your browser.
