@@ -11,8 +11,8 @@ const projects = [
         liveLink: "https://studentlifestyleandstressprediction-eyme6xuza6uzbh72mqn6rj.streamlit.app/"
     },
     {
-        title: "CyberShield-Auto",
-        description: "An AI-driven cybersecurity platform for autonomous threat detection and response. Utilizes machine learning, multi-agent architecture, and security event analysis to identify suspicious activity, assess severity, and initiate actions automatically.",
+        title: "CyberShield-Auto (Ongoing)",
+        description: "🚧 [Currently in Development] An AI-driven cybersecurity platform for autonomous threat detection and response. Utilizes machine learning, multi-agent architecture, and security event analysis to identify suspicious activity, assess severity, and initiate actions automatically.",
         tags: ["AI Agents", "Machine Learning", "FastAPI", "Pydantic", "Cybersecurity", "Streamlit"],
         codeLink: "https://github.com/aditya00801/CyberShield-Auto",
         liveLink: ""
